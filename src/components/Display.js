@@ -1,3 +1,3 @@
-export default function Display() {
-  return <div>0</div>;
+export default function Display({ value }) {
+  return <div>{value}</div>;
 }

@@ -1,6 +1,6 @@
 .calculator {
   width: 300px;
-  margin: 50px auto; /* Центрировать калькулятор */
+  margin: 50px auto;  
   border: 1px solid #ccc;
   padding: 10px;
 }
@@ -14,4 +14,37 @@
 .buttons button {
   padding: 15px;
   font-size: 1.2em;
+}
+
+.operator-btn {
+  background-color: #f0ad4e; 
+}
+
+.action-btn {
+  background-color: #d9534f; 
+}
+
+.equals-btn {
+  background-color: #5cb85c; 
+  
+}
+
+.zero-btn {
+  grid-column: span 2; 
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Выровнять по верху */
+  gap: 20px;
+}
+.history {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.history ul {
+  list-style: none;
+  padding: 0;
 }
